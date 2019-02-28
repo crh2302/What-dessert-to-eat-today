@@ -1,0 +1,187 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  background-color: #222;
+}
+
+header h1{
+  background-color: #333;
+  display: block;
+  font-size: 30px;
+  margin: 0;
+  color: white;
+  padding: 40px 16px 16px;
+  font-weight: normal;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+  height:24px;
+  margin:16px 16px 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#navbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.05em;
+    text-align: center;
+}
+
+#navbar li a:hover {
+    background-color: #222;
+}
+
+#navbar .active {
+    background-color: #4DBF60;
+}
+
+#navbar #user {
+  float: right;
+  background-color: darkgreen;
+}
+
+#how-to{
+  text-align: center;
+  font-family: Georgia;
+  display:block;
+  width:100%;
+  height:206px;
+  background-color:#333;
+  overflow:hidden;
+  color: white;
+}
+
+.how-to-step{
+  float: left;
+  width:33.33%;
+  margin: 0;
+  padding: 0px;
+  height:150px;
+}
+
+
+.how-to-step p{
+  margin: 0;
+  padding: 0;
+
+}
+
+.how-to-step h3{
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.how-to-step .step-image{
+  height: 33.33%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+#options{
+  font-family: Georgia;
+  display:block;
+  width:100%;
+  height:900px;
+  background-color:green;
+  overflow:hidden;
+  color: white;
+}
+
+.columns{
+  float: left;
+  width:49%;
+  margin: 0;
+  height:800px;
+}
+
+
+.columns p{
+  margin: 0;
+  padding: 0;
+
+}
+
+.columns h3{
+  margin: 0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+
+
+.right{
+  border-right: 1px solid black;
+}
+
+footer{
+  text-align: center;
+  font-style: italic;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 1px 0px;
+}
+
+#error{
+  margin: 0;
+  padding: 0px;
+  color: red;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.reset{
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: lighter;
+  border-bottom: 1px solid white;
+}
+.img_result{
+  width: 35%;
+  height: auto;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  color:white;
+  text-align: center;
+  line-height: 28px;
+  width: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  padding: 2% 20%;
+
+}

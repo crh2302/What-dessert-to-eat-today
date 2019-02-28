@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Desserts Rochester</title>
+
+    <script src="script.js"></script>
+    <script src="browserDetect.js"></script>
+    <script src="cookies.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+
+  </head>
+  <body onload="myApp.init('opts','desserts3.json');">
+    <p id ="error"></p>
+    <header>
+      <h1>What dessert to eat today?</h1>
+    </header>
+
+    <ul id = navbar>
+      <li><a class="active">Home</a></li>
+      <li><a onclick="myApp.toggleColor();">Change theme</a></li>
+      <li id="user"><a id="user_name"></a></li>
+    </ul>
+
+    <div id="how-to">
+      <h2>How to select an awesome place to eat?</h2>
+
+      <div class="how-to-step">
+        <img class="step-image" src="assets\starthere.png" alt="">
+        <h3>Where to Start</h3>
+        <p>Start by clicking the <span>"What type of dessert you prefer option".</span> in the options sections</p>
+      </div>
+
+      <div class="how-to-step">
+        <img class="step-image" src="assets\selecting.png" alt="Hand selectig">
+        <h3>What to do</h3>
+        <p>Answer questions to help us to determine your preference</p>
+      </div>
+
+      <div class="how-to-step">
+        <img class="step-image" src="assets\cupcake.png" alt="Example of a chocolate cupcake">
+        <h3>The result</h3>
+        <p>Get a recommendation to a great place to buy your desserts</p>
+      </div>
+    </div>
+
+    <div id="options">
+      <h2>Options section</h2>
+      <div class="columns right" id= "opts">
+        <h3>Options <span class = "reset" onclick="myApp.startOver()">Click here to reset the process</span> </h3>
+      </div>
+      <div class="columns" id = "results">
+        <h3>Results</h3>
+      </div>
+    </div>
+
+    <footer>
+      <p>Author: Cervantes Hernandez - Email: crh2302@rit.edu</p>
+    </footer>
+  </body>
+</html>

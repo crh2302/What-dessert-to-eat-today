@@ -1,0 +1,116 @@
+{
+  "label": null,
+  "question": "What type of dessert you prefer",
+  "children": [
+    {
+      "label": "Frozen desserts",
+      "question": "What type of frozen dessert you prefer",
+      "children": [
+        {
+          "label": "Ice cream",
+          "question": "Which icecream shop you prefer?",
+          "children": [
+            {
+              "type":"dessert",
+              "label": "Ben and Jerry's",
+              "website": "https://www.rit.edu/fa/diningservices/ben-jerrys",
+              "phone": "585-475-5112",
+              "img": "desserts\\image01.png",
+              "address": "139 Lomb Memorial Dr, Rochester, NY 14623",
+              "gmap": "https://goo.gl/maps/U42SLYDyNBG2"
+            },
+            {
+              "type":"dessert",
+              "label": "Russel's Ice Cream",
+              "website":
+                "https://www.facebook.com/pages/Russell-Ice-Cream/117331118285416",
+              "phone": "(585) 247-7146",
+              "img": "desserts\\image02.png",
+              "address": "2385 Chili Ave, Rochester, NY 14624",
+              "gmap": "https://goo.gl/maps/Vo8dcoMz3NU2"
+            }
+          ]
+        },
+        {
+          "label": "Yogurt",
+          "question": "Which yogurt shop you prefer?",
+          "children": [
+            {
+              "type":"dessert",
+              "label": "Yolickity Frozen Yogurt Bar",
+              "website": "http://www.yolickity.com/locations",
+              "phone": "(585) 319-5785",
+              "img": "desserts\\image03.png",
+              "address": "1000 Hylan Dr, Rochester, NY 14623",
+              "gmap": "https://goo.gl/maps/gaT3JMA837J2"
+            },
+            {
+              "type":"dessert",
+              "label": "Hoopla! Frozen Yogurt",
+              "website": "http://hooplafroyo.com/",
+              "phone": "(585) 310-7643",
+              "img": "desserts\\image04.png",
+              "address": "3349 Monroe Ave, Rochester, NY 14618",
+              "gmap": "https://goo.gl/maps/GUy7hFV8PNB2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Baked desserts",
+      "question": "Would you buy baked dessert in a coffee shop?",
+      "children": [
+        {
+          "label": "Sure",
+          "question": "Select a coffee shop of your preference",
+          "children": [
+            {
+              "type":"dessert",
+              "label": "Artesano Bakery & Cafe",
+              "website":
+                "https://www.rit.edu/fa/diningservices/artesano-bakery-caf%C3%A9#1",
+              "phone": "(585) 475-5112",
+              "img": "desserts\\image05.png",
+              "address": "15 The Quarter Mile Walkway, Rochester, NY 14623",
+              "gmap": "https://goo.gl/maps/DDxtGHeLe2n"
+            },
+            {
+              "type":"dessert",
+              "label": "Beanz",
+              "website": "https://www.rit.edu/fa/diningservices/node/114",
+              "phone": "585-475-2049",
+              "img": "desserts\\image06.png",
+              "address": null,
+              "gmap": "https://goo.gl/maps/9uwxgGCna6q"
+            }
+          ]
+        },
+        {
+          "label": "Not really",
+          "question": "Select a dessert shop of your preference",
+          "children": [
+            {
+              "type":"dessert",
+              "label": "Insomnia Cookies",
+              "website": "https://insomniacookies.com/locations/store/1103",
+              "phone": "(585) 479-3836",
+              "img": "desserts\\image07.png",
+              "address": "1333 Mt Hope Ave, Rochester, NY 14620",
+              "gmap": "https://goo.gl/maps/fnkgBBauJ7G2"
+            },
+            {
+              "type":"dessert",
+              "label": "Genesee Bakery and Deli",
+              "website": "http://www.geneseebakeryanddeli.com/",
+              "phone": "(585) 244-5360",
+              "img": "desserts\\image08.png",
+              "address": "1677 Mt Hope Ave, Rochester, NY 14620",
+              "gmap": "https://goo.gl/maps/StVnSBduoJK2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
